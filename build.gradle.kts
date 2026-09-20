@@ -11,7 +11,7 @@ group = "ai.rever.boss.plugin.dynamic"
 // 0.1.0: static, pre-load report of what a plugin JAR can do - reads
 // META-INF/boss-plugin/plugin.json + JAR metadata, lists MCP tools and
 // permissions without loading classes.
-version = "0.1.0"
+version = "0.1.1"
 
 // Auto-detect CI environment: CI=true uses the downloaded jar under build/downloaded-deps.
 val useLocalDependencies = System.getenv("CI") != "true"
