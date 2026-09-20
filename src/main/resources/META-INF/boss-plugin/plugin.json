@@ -1,0 +1,25 @@
+{
+  "manifestVersion": 1,
+  "pluginId": "ai.rever.boss.plugin.dynamic.xray",
+  "displayName": "Plugin X-Ray (Dynamic)",
+  "version": "0.1.0",
+  "apiVersion": "1.0.93",
+  "minApiVersion": "1.0.93",
+  "minBossVersion": "9.5.0",
+  "mainClass": "ai.rever.boss.plugin.dynamic.xray.PluginXrayDynamicPlugin",
+  "type": "mixed",
+  "description": "Static, pre-load report of what a plugin JAR can do - reads META-INF/boss-plugin/plugin.json + JAR metadata, lists MCP tools and permissions without loading classes",
+  "author": "Risa Labs",
+  "url": "https://github.com/choksi2212/boss-plugin-x-ray",
+  "panel": {
+    "position": "left_bottom",
+    "priority": 60
+  },
+  "sandbox": {
+    "maxThreads": 4,
+    "maxRestartAttempts": 3,
+    "heartbeatIntervalMs": 5000
+  },
+  "isolationMode": "out-of-process",
+  "fallback": "in-process"
+}
