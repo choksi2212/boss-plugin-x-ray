@@ -115,3 +115,8 @@ Pull requests run the test workflow at `.github/workflows/test.yml`, which build
 JAR against the downloaded `boss-plugin-api` jar. Both workflows require
 `permissions: contents: write` on the release workflow and `contents: read` on the
 test workflow.
+
+
+## Notes
+
+Initial feature branch. The release workflow (build.yml) is wired for push to main; the test workflow (test.yml) runs on pull requests.
