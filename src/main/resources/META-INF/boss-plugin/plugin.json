@@ -9,7 +9,7 @@
   "mainClass": "ai.rever.boss.plugin.dynamic.xray.PluginXrayDynamicPlugin",
   "type": "mixed",
   "description": "Static, pre-load report of what a plugin JAR can do - reads META-INF/boss-plugin/plugin.json + JAR metadata, lists MCP tools and permissions without loading classes",
-  "author": "Risa Labs",
+  "author": "choksi2212",
   "url": "https://github.com/choksi2212/boss-plugin-x-ray",
   "panel": {
     "position": "left_bottom",
