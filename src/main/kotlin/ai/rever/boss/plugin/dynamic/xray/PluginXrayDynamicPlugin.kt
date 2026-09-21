@@ -28,7 +28,7 @@ class PluginXrayDynamicPlugin : DynamicPlugin {
     override val description: String =
         "Static, pre-load report of what a plugin JAR can do - reads META-INF/boss-plugin/plugin.json " +
             "and JAR metadata, lists MCP tools and permissions without loading classes."
-    override val author: String = "Risa Labs"
+    override val author: String = "choksi2212"
     override val url: String = "https://github.com/choksi2212/boss-plugin-x-ray"
 
     /**
